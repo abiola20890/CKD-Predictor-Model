@@ -10,7 +10,7 @@ model = joblib.load("kidney_xgboost_model.pkl")
 
 # App title and banner
 st.title("🩺 Chronic Kidney Disease (CKD) Prediction")
-st.image("kidney_banner.png", use_column_width=True)
+st.image("some_image.png", use_container_width=True)
 st.write("## By DSA 2025")
 
 # Instructions
